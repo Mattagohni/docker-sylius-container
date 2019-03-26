@@ -1,0 +1,10 @@
+name: sylius-container
+title: Basic Shopware Container
+maintainer: Matthias Alt
+copyright: Matthias Alt
+copyright_email: mattagohni@gmail.com
+summary: Verifies that a default sylius setup exists
+version: 0.1.0
+supports:
+  - os-family: linux
+inspec_version: "~> 3.7"
