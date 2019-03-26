@@ -40,6 +40,6 @@ unzip -q install.zip
 mv ${PROJECT_HOME}/Sylius-${SYLIUS_VERSION}/* ${PROJECT_HOME}
 rm -rf ${PROJECT_HOME}/Sylius-${SYLIUS_VERSION}/
 
-php -dmemory_limit=-1 /usr/local/bin/composer install
+php -dmemory_limit=-1 /usr/local/bin/composer install --no-dev -o --no-scripts
 
 chown -R www-data:www-data ${PROJECT_HOME}/
